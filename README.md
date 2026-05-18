@@ -19,7 +19,7 @@ justgit is a lightweight Git wrapper built for:
 - automation scripts
 - prototypes
 - personal projects
-- wherever git2 aint required :)
+- wherever libgit2 aint required :)
 
 It focuses on simplicity over abstraction.
 
