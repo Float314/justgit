@@ -1,5 +1,11 @@
 # justgit - system() Git Wrapper
 
+![GitHub License](https://img.shields.io/github/license/Float314/justgit)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Float314/justgit/multi-platform.yml)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Float314/justgit)
+![GitHub top language](https://img.shields.io/github/languages/top/Float314/justgit)
+![GitHub Tag](https://img.shields.io/github/v/tag/Float314/justgit)
+
 *libgit2 is sometimes so niche, why not use a simple wrapper?*
 
 Lowk niche git wrapper 

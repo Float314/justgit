@@ -1,14 +1,8 @@
 cmake_minimum_required(VERSION 3.15)
-project(cxx_template) # Insert project name here
+project(justgit LANGUAGES CXX)
 
-set(CMAKE_C_STANDARD 11)
-set(CMAKE_C_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 20) # C++17 minimum, C++20 preferred
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(SOURCES
-    src/main.cpp
-) # Add files as they expand
-
-# DO NOT EDIT THIS LINE !
-add_executable(${PROJECT_NAME} ${SOURCES})
+add_library(vcmgr INTERFACE)
+target_include_directories(vcmgr INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
